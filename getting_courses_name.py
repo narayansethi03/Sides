@@ -1,3 +1,7 @@
+# What this does?
+
+# It gets the text data from the specified HTML class. It is done using BeautifulSoup's `find_all`. The HTML variable contains the string from where the data is to be extracted.
+
 html = '''<div class="items clearfix">
 <div class="item  even">
 	<div class="checkbox-column">
